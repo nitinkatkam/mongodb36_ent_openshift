@@ -12,7 +12,11 @@ Build the image
 
 To build the image you can execute the following:
 
-docker build . --tag mongodb
+docker build -f Dockerfile.centos . --tag mongodb
+
+or
+
+docker build -f Dockerfile.rhel . --tag mongodb
 
 Run using docker
 ===============
